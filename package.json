@@ -1,0 +1,21 @@
+{
+  "name": "cyanide",
+  "displayName": "Cyanide",
+  "description": "A minimal dark theme for Visual Studio Code.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.30.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Cyanide",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cyanide-color-theme.json"
+      }
+    ]
+  }
+}

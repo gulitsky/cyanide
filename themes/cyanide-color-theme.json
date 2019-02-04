@@ -1,0 +1,340 @@
+{
+  "tokenColors": [
+    {
+      "settings": {
+        "background": "#0a0a0a",
+        "foreground": "#CCCCCC",
+        "gutterForeground": "#333333"
+      }
+    },
+    {
+      "name": "Comment",
+      "scope": "comment",
+      "settings": {
+        "foreground": "#444"
+      }
+    },
+    {
+      "name": "Foreground",
+      "scope": [
+        "keyword.operator.class",
+        "constant.other",
+        "source.php.embedded.line"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#CCCCCC"
+      }
+    },
+    {
+      "name": "Variable, String Link, Tag Name",
+      "scope": [
+        "variable",
+        "support.other.variable",
+        "string.other.link",
+        "entity.name.tag",
+        "entity.other.attribute-name",
+        "meta.tag",
+        "declaration.tag"
+      ],
+      "settings": {
+        "foreground": "#787878"
+      }
+    },
+    {
+      "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+      "scope": [
+        "constant.numeric",
+        "constant.language",
+        "support.constant",
+        "constant.character",
+        "variable.parameter",
+        "punctuation.section.embedded",
+        "keyword.other.unit"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#64b2db"
+      }
+    },
+    {
+      "name": "Class, Support",
+      "scope": [
+        "entity.name.class",
+        "entity.name.type.class",
+        "support.type",
+        "support.class"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#DDD"
+      }
+    },
+    {
+      "name": "String, Symbols, Inherited Class, Markup Heading",
+      "scope": [
+        "string",
+        "constant.other.symbol",
+        "entity.other.inherited-class",
+        "markup.heading"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#64b2db"
+      }
+    },
+    {
+      "name": "Operator, Misc",
+      "scope": ["keyword.operator", "constant.other.color"],
+      "settings": {
+        "foreground": "#AAA"
+      }
+    },
+    {
+      "name": "Function, Special Method, Block Level",
+      "scope": [
+        "entity.name.function",
+        "meta.function-call",
+        "support.function",
+        "keyword.other.special-method",
+        "meta.block-level"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#EFEFEF"
+      }
+    },
+    {
+      "name": "Keyword, Storage",
+      "scope": ["keyword", "storage", "storage.type", "entity.name.tag.css"],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#64b2db"
+      }
+    },
+    {
+      "name": "Separator",
+      "scope": "meta.separator",
+      "settings": {
+        "background": "#222222",
+        "foreground": "#64b2db"
+      }
+    },
+    {
+      "name": "Diff foreground",
+      "scope": [
+        "markup.inserted.diff",
+        "markup.deleted.diff",
+        "meta.diff.header.to-file",
+        "meta.diff.header.from-file"
+      ],
+      "settings": {
+        "foreground": "#555555"
+      }
+    },
+    {
+      "name": "Diff insertion",
+      "scope": ["markup.inserted.diff", "meta.diff.header.to-file"],
+      "settings": {
+        "foreground": "#718c00"
+      }
+    },
+    {
+      "name": "Diff deletion",
+      "scope": ["markup.deleted.diff", "meta.diff.header.from-file"],
+      "settings": {
+        "foreground": "#c82829"
+      }
+    },
+    {
+      "name": "Diff header",
+      "scope": ["meta.diff.header.from-file", "meta.diff.header.to-file"],
+      "settings": {
+        "foreground": "#555555",
+        "background": "#4271ae"
+      }
+    },
+    {
+      "name": "Diff range",
+      "scope": "meta.diff.range",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#3e999f"
+      }
+    },
+    {
+      "name": "GitGutter deleted",
+      "scope": "markup.deleted.git_gutter",
+      "settings": {
+        "foreground": "#64b2db"
+      }
+    },
+    {
+      "name": "GitGutter inserted",
+      "scope": "markup.inserted.git_gutter",
+      "settings": {
+        "foreground": "#64b2db"
+      }
+    },
+    {
+      "name": "GitGutter changed",
+      "scope": "markup.changed.git_gutter",
+      "settings": {
+        "foreground": "#64b2db"
+      }
+    },
+    {
+      "name": "GitGutter ignored",
+      "scope": "markup.ignored.git_gutter",
+      "settings": {
+        "foreground": "#64b2db"
+      }
+    },
+    {
+      "name": "GitGutter untracked",
+      "scope": "markup.untracked.git_gutter",
+      "settings": {
+        "foreground": "#64b2db"
+      }
+    },
+    {
+      "name": "SublimeLinter Warning",
+      "scope": "sublimelinter.mark.warning",
+      "settings": {
+        "foreground": "#EDBA00"
+      }
+    },
+    {
+      "name": "SublimeLinter Gutter Mark",
+      "scope": "sublimelinter.gutter-mark",
+      "settings": {
+        "foreground": "#555555"
+      }
+    },
+    {
+      "name": "SublimeLinter Error",
+      "scope": "sublimelinter.mark.error",
+      "settings": {
+        "foreground": "#DA2000"
+      }
+    },
+    {
+      "name": "File/Dir Symbols",
+      "scope": [
+        "punctuation.definition.directory.symbol.dired",
+        "punctuation.definition.file.symbol.dired",
+        "dired.item.parent_dir"
+      ],
+      "settings": {
+        "foreground": "#919aa388"
+      }
+    },
+    {
+      "name": "Dir Slash",
+      "scope": "punctuation.definition.directory.slash.dired",
+      "settings": {
+        "foreground": "#919aa388"
+      }
+    },
+    {
+      "name": "Dir Name",
+      "scope": "string.name.directory.dired",
+      "settings": {
+        "foreground": "#919aa388",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Header",
+      "scope": "header.dired",
+      "settings": {
+        "foreground": "#333333"
+      }
+    },
+    {
+      "name": "Header punctuations",
+      "scope": "header.dired punctuation.definition.separator.dired",
+      "settings": {
+        "foreground": "#6f798733"
+      }
+    },
+    {
+      "name": "Header Rename Mode Title",
+      "scope": "header.dired punctuation.definition.rename_mode",
+      "settings": {
+        "foreground": "#64b2db"
+      }
+    },
+    {
+      "name": "Marked",
+      "scope": "dired.marked",
+      "settings": {
+        "foreground": "#FFFFFF",
+        "background": "#4b96d6"
+      }
+    },
+    {
+      "name": "Help",
+      "scope": "help.dired",
+      "settings": {
+        "background": "#f5f7f8",
+        "foreground": "#64b2db"
+      }
+    },
+    {
+      "name": "Help punctuations",
+      "scope": "punctuations.help.dired",
+      "settings": {
+        "foreground": "#6f798766"
+      }
+    },
+    {
+      "name": "Help shortcut punctuations",
+      "scope": "punctuations.shortcut.help.dired",
+      "settings": {
+        "foreground": "#64b2db66"
+      }
+    },
+    {
+      "name": "Help shortcut",
+      "scope": "key.shortcut.help.dired",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#000000"
+      }
+    },
+    {
+      "name": "Error",
+      "scope": "string.error.dired",
+      "settings": {
+        "foreground": "#aa0000"
+      }
+    },
+    {
+      "name": "VCS Modified",
+      "scope": "item.modified.dired",
+      "settings": {
+        "foreground": "#64b2db",
+        "background": "#0a0a0b"
+      }
+    },
+    {
+      "name": "VCS Untracked",
+      "scope": "item.untracked.dired",
+      "settings": {
+        "foreground": "#fff",
+        "background": "#0a0a0b"
+      }
+    }
+  ],
+  "colors": {
+    "editor.background": "#0a0a0a",
+    "editorCursor.foreground": "#CCCCCC",
+    "editor.foreground": "#CCCCCC",
+    "editorWhitespace.foreground": "#6A6A6A",
+    "editor.lineHighlightBackground": "#111111",
+    "editor.selectionBackground": "#252525",
+    "editorIndentGuide.background": "#141414"
+  },
+  "name": "cyanide"
+}
